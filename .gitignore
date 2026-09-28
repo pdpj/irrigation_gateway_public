@@ -1,0 +1,33 @@
+# Arduino / build artifacts
+build/
+*.elf
+*.bin
+*.map
+*.hex
+
+# KiCad — backups, locks, autosaves, caches (auto-generated)
+*.bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-backups/
+_autosave-*
+*.lck
+fp-info-cache
+
+# VS Code "Local History" extension — duplicated local history,
+# includes its own internal .git, should never enter the repository
+**/.history/
+
+# Operating system
+Thumbs.db
+.DS_Store
+
+
+# Personal learning notes — out of the repository's scope
+aprendizado-geral/
+
+# RTOS/BLE sandboxes and experiments — out of scope for the main firmware
+examples/
+
+# Real credentials - never versioned (see config.example.h as a template)
+main/config.h
